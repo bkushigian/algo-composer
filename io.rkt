@@ -23,7 +23,7 @@
   (apply string-append
          (for/list ([(line instr) (in-indexed system)])
                    (write-note* line (list-ref instrs instr) note-dur))))
-(define (export-system system [note-dur 4] [tempo 110] [instrs (list 0 1 2 3 4 5)])
+(define (export-system system #:dur [note-dur 4] #:tempo [tempo 110] #:instruments [instrs (list 0 1 2 3 4 5)])
   (define instruments (format "{\"instruments\":{~a}}"
                               (string-join (for/list ([(line i) (in-indexed system)])
                                         (mk-instrument (list-ref instrs i))) ",")))

@@ -1,0 +1,10 @@
+* All notes have equal length
+* All harmonies consist of consonances
+* Beginning and end bars must consist of perfect consonances
+* There should be more imperfect than perfect consonances
+* Next to last bar:
+  - Major 6th if CF is in the lower part
+  - Minor 3rd if CF is in the upper part
+* The counterpoint must be in the same mode as the cantus firmus (in particular,
+  if the cp is in the base, cannot start with a fifth interval)
+* No _battuta_ octaves (10th into an octave)
